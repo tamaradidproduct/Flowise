@@ -1717,7 +1717,7 @@ export class App {
                     if (param.name === 'allowImageUploads' && node.data.inputs?.['allowImageUploads']) {
                         imgUploadSizeAndTypes.push({
                             fileTypes: 'image/gif;image/jpeg;image/png;image/webp;'.split(';'),
-                            maxUploadSize: 5
+                            maxUploadSize: 10
                         })
                         isImageUploadAllowed = true
                     }
